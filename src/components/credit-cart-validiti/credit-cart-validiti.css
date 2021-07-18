@@ -1,0 +1,79 @@
+.credit-cart-validiti {
+  width: 300px;
+  margin: 0 auto;
+  border: 1px solid black;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.title {
+  display: block;
+  font-size: 22px;
+}
+
+.img {
+  display: flex;
+  padding-inline-start: 0px;
+  margin-bottom: 20px;
+}
+
+.img__item {
+  margin-left: 20px;
+  width: 39px;
+  height: 25px;
+  list-style-type: none;
+  background-position: 0 -25px;
+  opacity: 0.3;
+}
+.img__item:first-child {
+  margin-left: 0px;
+}
+.activ {
+  background-position: 0 0;
+  opacity: 1;
+}
+
+.input-row {
+  margin-bottom: 20px;
+}
+.input-row__input {
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+.input-row__input:focus {
+  outline: 1px solid aqua;
+  border-radius: 4px;
+}
+.input-row__button {
+  border-radius: 4px;
+  background-color: #ccc;
+}
+.valid {
+  background-color: green;
+  color: floralwhite;
+}
+.visa {
+  background-image: url("../../img/icon_cart/card-visa.gif");
+}
+.mastercard {
+  background-image: url("../../img/icon_cart/card-mastercard.gif");
+}
+.jcb {
+  background-image: url("../../img/icon_cart/card-jcb.gif");
+}
+.discover {
+  background-image: url("../../img/icon_cart/card-discover.gif");
+}
+.diners {
+  background-image: url("../../img/icon_cart/card-diners.gif");
+}
+.amex {
+  background-image: url("../../img/icon_cart/card-amex.gif");
+}
+.mir {
+  background-image: url("../../img/icon_cart/card-mir.svg");
+  border: 1px solid black;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 4px;
+  height: 23px;
+}
