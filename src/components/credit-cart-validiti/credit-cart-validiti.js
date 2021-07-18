@@ -17,8 +17,8 @@ export default class CreditCartValiditi {
         <li class="img__item mir"></li>
       </ul>
       <div class="input-row">
-        <input type="text" name="number" class="input-row__input" />
-        <button disabled class="input-row__button">Click to validate</button>
+        <input type="text" name="number" class="input-row__input">
+        <button disabled="" class="input-row__button">Click to validate</button>
       </div>
     </div> `;
   }
